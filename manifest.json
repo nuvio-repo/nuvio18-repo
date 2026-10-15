@@ -1,6 +1,25 @@
-{
-  "name": "Nuvio 18+ Repo",
-  "description": "Community 18+ providers for Nuvio",
-  "version": "1.0.0",
-  "plugins": []
-}
+[
+  {
+    "id": "eporner",
+    "name": "Eporner",
+    "description": "Streams from Eporner",
+    "version": "1.0.0",
+    "author": "nuvio-repo",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "filename": "providers/eporner.js",
+    "enabled": true,
+    "logo": "https://www.eporner.com/favicon.ico",
+    "contentLanguage": [
+      "en"
+    ],
+    "formats": [
+      "mp4"
+    ],
+    "limited": false,
+    "disabledPlatforms": [],
+    "supportsExternalPlayer": true
+  }
+]
